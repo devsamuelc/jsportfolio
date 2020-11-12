@@ -1,28 +1,33 @@
+import healthpage from '../images/healthpage.jpg';
+import bhaskara from '../images/bhask.jpg';
+import candy from '../images/candy.jpg';
+import ecomm from '../images/ecomm.jpg';
+
 const data = {
     "properties": [
         {
             "index": 0,
             "name": "Health Blog",
-            "image": "https://images.unsplash.com/photo-1553075866-cc2ae9edc813?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-            "description": "A random image"
+            "image": `${healthpage}`,
+            "description": "I built this website for a costumer who wanted to sell health related products. It's built on React."
         },
         {
             "index": 1,
             "name": "Candy Themed Website",
-            "image": "https://images.unsplash.com/photo-1566520490738-f8e6ea76f8c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1301&q=80",
-            "description": "A second random image"
+            "image": `${candy}`,
+            "description": "This website was built on a design lesson I took, learned a bit about colors and element positioning. "
         },
         {
             "index": 2,
             "name": "Second Degree Function Calculator",
-            "image": "https://images.unsplash.com/photo-1529151942096-589e0cd4e09e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-            "description": "A third random image"
+            "image": `${bhaskara}`,
+            "description": "This was one of my first attempts of building a fully functional JavaScript app."
         },
         {
             "index": 3,
             "name": "E-Commerce Website",
-            "image": "https://images.unsplash.com/photo-1580482406524-a776f0aee079?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-            "description": "A fourth random image"
+            "image": `${ecomm}`,
+            "description": "This app is complete with admin page, carts and .json databases."
         }
     ]
 }
