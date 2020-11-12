@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+}
+
+body {
+    transition: 800ms;
+}
+
+p {
+    color: white;
+}
+
+.homeButton {
+    color: white;
+    font-size: 30px;
+    padding: 35px;
+    margin: 30px;
+    transition: 400ms;
+}
+
+.homeButton:hover {
+    color: #3a3a3a;
+}
+
+/* Scrollbar */
+  
+    ::-webkit-scrollbar {
+    display: none;
+  }
